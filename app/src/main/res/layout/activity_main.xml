@@ -9,6 +9,9 @@
     <ListView
         android:id="@+id/lv_hero"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"></ListView>
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:scrollbars="vertical"
+        android:stackFromBottom="false"></ListView>
 
 </RelativeLayout>
